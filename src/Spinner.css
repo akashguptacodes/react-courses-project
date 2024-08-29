@@ -1,0 +1,26 @@
+.spinner {
+    width: 30px;
+    height: 30px;
+    border: 11.2px #363030 double;
+    border-left-style: solid;
+    border-radius: 50%;
+    animation: spinner 0.75s infinite linear;
+ }
+ 
+ @keyframes spinner {
+    to {
+       transform: rotate(360deg);
+    }
+ }
+
+ .spinner-box{
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+ }
+.loading{
+   font-size: medium;
+   font-weight: 500;
+   color: rgb(27, 26, 26);
+}
